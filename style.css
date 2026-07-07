@@ -1,0 +1,136 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#0f172a,#1e293b);
+color:white;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:#111827;
+position:sticky;
+top:0;
+}
+
+nav h2{
+color:#38bdf8;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+transition:.3s;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:center;
+padding:80px 10%;
+gap:60px;
+flex-wrap:wrap;
+}
+
+.hero img{
+width:300px;
+height:300px;
+object-fit:cover;
+border-radius:50%;
+border:6px solid #38bdf8;
+box-shadow:0 0 35px cyan;
+}
+
+.hero h1{
+font-size:45px;
+}
+
+.hero span{
+color:#38bdf8;
+}
+
+.hero p{
+margin:20px 0;
+font-size:18px;
+line-height:1.7;
+}
+
+button{
+padding:14px 35px;
+border:none;
+border-radius:30px;
+background:#38bdf8;
+font-size:17px;
+cursor:pointer;
+transition:.3s;
+}
+
+button:hover{
+transform:scale(1.08);
+}
+
+.card{
+padding:70px 10%;
+}
+
+.card h2{
+text-align:center;
+margin-bottom:40px;
+font-size:35px;
+}
+
+.isi{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.isi div{
+background:#1e293b;
+padding:30px;
+border-radius:15px;
+text-align:center;
+transition:.3s;
+}
+
+.isi div:hover{
+transform:translateY(-8px);
+background:#334155;
+}
+
+.kontak{
+padding:70px 10%;
+text-align:center;
+}
+
+.kontak a{
+display:block;
+margin:10px;
+font-size:20px;
+text-decoration:none;
+color:#38bdf8;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#111827;
+margin-top:50px;
+}
